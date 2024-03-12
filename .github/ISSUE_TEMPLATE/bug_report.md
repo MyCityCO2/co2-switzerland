@@ -22,7 +22,7 @@
 ### Environment
 
 - Operating System: [e.g., Windows 10, macOS, Linux]
-- Python Version: [e.g., Python 3.8.5]
+- Python Version: 3.10
 - Relevant Software/Tools: [List any relevant software or tools being used, e.g., IDEs, libraries]
 
 ### Additional Information
