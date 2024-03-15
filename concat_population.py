@@ -21,5 +21,5 @@ gde_df['KTNR'] = gde_df['KTNR'].apply(lambda x: str(x).zfill(2))
 gde_df['UID'] = gde_df['KTNR'] + gde_df['GDENR']
 
 result_df = pd.merge(gde_df, pop_df, on='GDENR', how = 'right')
-
+result_df = result_df[['UID', 'year', 'population' ]]
 result_df.to_csv(os.path.join(datafolder, 'population_output.csv' ), index=False)
