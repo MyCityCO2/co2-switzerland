@@ -1,0 +1,12 @@
+index_header: 2
+index_uid_label: 2
+year: 2022
+filetype: xlsx
+filename: 'input_data'
+datafolder: data
+geo_filename: 'BFS_Geodata_concat.csv'
+sheet_name: 'MCH2'
+currency: 'CHF'
+chart_of_account: 'MCH2'
+country_iso: 'CH'
+pivot: True
